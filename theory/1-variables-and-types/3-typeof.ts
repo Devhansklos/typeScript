@@ -51,5 +51,14 @@ console.log("Now the type of anything:", typeof anything) // "number"
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//zadanie 1.3
+
+let isTester = true
+console.log("Am I a tester? ", isTester)
+isTester = false
+console.log("Am I a tester? ", isTester)
+
+
 // -------------------------
 export {}
