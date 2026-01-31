@@ -7,6 +7,10 @@
 
 export {} // Ignore this line
 
+
+const name = "John"
+console.log ("My name is: " , name)
+
 // Steps:
 // 1. Create a variable called `name` using const
 // 2. Assign it a string value (e.g., "John")

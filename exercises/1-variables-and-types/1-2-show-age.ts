@@ -7,6 +7,7 @@
 
 export {} // Ignore this line
 
+
 // Steps:
 // 1. Create a variable called `age` using const or let
 // 2. Assign it a number value (e.g., 25)
@@ -15,6 +16,13 @@ export {} // Ignore this line
 // 💭 Questions to think about:
 // - What happens if you assign a string like "25" instead of a number?
 // - Can you perform arithmetic operations with the age variable?
+
+let age: any = 25
+console.log ("mam", age,"lat") 
+age = "dwadziescia pięć lat"
+console.log("mam",age, "lat")
+
+
 
 // -------------------------
 // 📤 Expected Output:
