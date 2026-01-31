@@ -81,6 +81,16 @@ console.log("maxPoints:", maxPoints)
 console.log("points >= maxPoints:", points >= maxPoints) // true
 console.log("points <= maxPoints:", points <= maxPoints) // true
 
+
+
+// zadanie 2 
+const num1: number = 15
+const num2: number = 10
+console.log("wynik x>y:", num1>num2)
+console.log("wynik x<y:", num1<num2)
+console.log("wynik x>=y:", num1>=num2)
+console.log("wynik x<=y:", num1<=num2)
+
 // -------------------------
 // 🧠 Summary:
 // -------------------------
