@@ -13,6 +13,15 @@
 // - PS. There is also `var`, but it's not recommended for modern TypeScript code.
 // This helps prevent accidental changes to important values.
 
+//zadanie 1.1 wypisz swoje imię + dorobilem nazwisko i wiek 
+const imie = "John"
+let nazwisko ="Klos"
+const wiek = 40
+
+console.log("Moje imie to:", imie + " "+ "Nazwisko:",nazwisko,"wiek:",wiek)
+
+
+
 console.log("\n-------------------------")
 console.log("🔡 Declaring variables")
 console.log("-------------------------\n")
@@ -100,7 +109,7 @@ console.log("Backtick:", backtick)
 // - Backticks allow for multi-line strings and string interpolation
 
 const multiLine: string = `This is a multi-line string! 
-You can write text on multiple lines without using \n.
+You can write text on multiple lines without using \\n.
 It also allows for string interpolation: ${greeting}`
 
 console.log("Multi-line string:", multiLine)
