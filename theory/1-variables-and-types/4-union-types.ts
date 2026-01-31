@@ -73,5 +73,11 @@ console.log("Status (string):", status) // pending
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+
+let favoriteColor ="blue"
+console.log("Oryginalny kolor" , favoriteColor)
+favoriteColor = "green"
+console.log("Nowy kolor" , favoriteColor) 
 // -------------------------
 export {}
