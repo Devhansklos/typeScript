@@ -83,6 +83,14 @@ console.log("People:", people)
 const chocolatesLeft = totalChocolates % people
 console.log("Chocolates left:", chocolatesLeft) // 1
 
+
+const number1: number =17
+const number2: number =5
+console.log("suma =", number1 + number2)
+console.log ("odejmowanie =", number1 -number1)
+console.log ("mnozenie=" , number1 *number2)
+console.log ("dzielenie =", number1/number1)
+
 // -------------------------
 // 🧠 Summary:
 // -------------------------
