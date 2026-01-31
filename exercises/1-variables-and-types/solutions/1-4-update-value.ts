@@ -30,3 +30,9 @@ let favoriteColor = "blue" // Step 1: Create a variable called `favoriteColor`; 
 console.log("Original color: " + favoriteColor) // Step 3: Print the original color
 favoriteColor = "green" // Step 4: Reassign the color to "green"
 console.log("New color: " + favoriteColor) // Step 5: Print the new color
+
+
+let favoriteColor ="blue"
+console.log("Oryginalny kolor" , favoriteColor)
+favoriteColor = "green"
+console.log("Nowy kolor" , favoriteColor)  

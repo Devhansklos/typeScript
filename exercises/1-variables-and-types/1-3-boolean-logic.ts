@@ -16,6 +16,12 @@ export {} // Ignore this line
 // - What happens if you assign a number or string to a boolean variable?
 // - How can you use this boolean in conditional statements?
 
+const isTester = true
+console.log("Am I a tester? ", isTester)
+
+
+
+
 // -------------------------
 // 📤 Expected Output:
 // -------------------------

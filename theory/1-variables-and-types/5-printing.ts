@@ -82,5 +82,15 @@ console.log("You are", age, "years old.") // "You are 28 years old."
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//zadanie 1.5
+let favoriteAnimal:string = "cat"
+console.log("My favorite animal is: " + favoriteAnimal)
+console.log(`My favorite animal is: ${favoriteAnimal}`)
+console.log("My favorite animal is: ", favoriteAnimal)
+
+
+
+
 // -------------------------
 export {}

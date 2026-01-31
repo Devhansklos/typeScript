@@ -3,6 +3,10 @@
 
 // -------------------------
 // ✅ Exercise: Update a value with let ✅
+
+//zadanie 1.4
+
+  
 // -------------------------
 
 export {} // Ignore this line
@@ -17,6 +21,10 @@ export {} // Ignore this line
 // 💭 Questions to think about:
 // - What happens if you try to use const instead of let?
 // - What if you try to assign a number instead of a string?
+
+
+
+
 
 // -------------------------
 // 📤 Expected Output:

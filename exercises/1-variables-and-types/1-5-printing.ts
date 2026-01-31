@@ -24,3 +24,9 @@ export {} // Ignore this line
 // My favorite animal is: cat
 
 // 👇 Your code here 👇 
+
+let favoriteAnimal:string = "cat"
+console.log("My favorite animal is: " + favoriteAnimal)
+console.log(`My favorite animal is: ${favoriteAnimal}`)
+console.log("My favorite animal is: ", favoriteAnimal)
+
