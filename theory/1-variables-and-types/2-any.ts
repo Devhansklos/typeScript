@@ -7,7 +7,7 @@
 // -------------------------
 // ❓ What is `any`?
 // -------------------------
-// `any` is a special type that disables type checking.
+// `any` is a special type that disables type checking.3
 // It tells TypeScript: "Trust me, I know what I'm doing."
 
 console.log("\n-------------------------")
@@ -71,5 +71,14 @@ console.log("Input (that is a number) length:", input.length)
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//zadamoe 1.2 wypisz swoj wiek w latach i miesiacach
+
+let age: any = 25
+console.log("mam", age,"lat")
+age = "dwadziescia pięć lat"
+console.log("mam",age, "lat")
+
+
 // -------------------------
 export {}
