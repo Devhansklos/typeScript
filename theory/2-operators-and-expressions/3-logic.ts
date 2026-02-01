@@ -165,4 +165,16 @@ console.log("!!{}:", !!emptyObject) // true, because empty object is truthy
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
 // -------------------------
+
+//Zadanie 2.3
+
+const zmiena1: boolean = false
+const zmienna2: boolean = true
+
+const wynikZmiennej = zmiena1&&zmienna2 
+console.log("jakaWartoscANDotrzymamy:",wynikZmiennej)
+
+const wynikZmiennej2 = zmiena1||zmienna2 
+console.log("jakaWartoscORotrzymamy:",wynikZmiennej2)
+
 export {}
