@@ -125,5 +125,24 @@ console.log(`Sign of ${valueB}: ${Math.sign(valueB)}`) // 1
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 2.6
+// Steps:
+// 1. Create a variable called `number` and set it to -7.8
+// 2. Use Math.abs() to get the absolute value and store it in `absoluteValue`
+// 3. Use Math.round() to round the original number and store it in `roundedValue`
+// 4. Print both values in the following format:
+//    "Absolute value: X"
+//    "Rounded value: Y"
+
+const number = -7.8
+const absoluteValue = Math.abs(number)
+const roundedValue = Math.round(number)
+console.log("Absolute value: " + absoluteValue)
+console.log("Rounded value: " + roundedValue)
+
+const liczbaLosowa = Math.floor(Math.random() * 7) // Losowa liczba całkowita od 0 do 6
+console.log("liczbaLosowaZzakresu0-6:", liczbaLosowa)
+
 // -------------------------
 export {}
