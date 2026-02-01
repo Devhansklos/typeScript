@@ -85,5 +85,16 @@ console.log("Score after /= 4:", score) // 6
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 2.5
+let flora: number = 10
+console.log("Initial flora:", flora) // 10
+flora += 5
+console.log("Score2 after += 5:", flora) // 15
+flora -= 3
+console.log("Score2 after -= 3:", flora) // 12
+flora *= 2
+console.log("Score2 after *= 2:", flora) // 24
+
 // -------------------------
 export {}
