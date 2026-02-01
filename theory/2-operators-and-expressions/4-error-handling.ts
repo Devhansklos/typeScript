@@ -29,12 +29,12 @@ console.log("🚨 Code that causes an error (not handled)")
 console.log("-------------------------\n")
 
 // 🔓 Uncomment this to see a crash in the console
-// let result = "hello" / 2 // ❌ This will print NaN or behave unexpectedly
-// console.log("Result:", result)
+ let result = "10" / 2 // ❌ This will print NaN or behave unexpectedly
+console.log("Result:", result)
 
 // 🔓 Uncomment this to see an error
-// const value = JSON.parse("not a valid JSON") // ❌ This will throw an error
-
+const value = JSON.parse("not a valid JSON") // ❌ This will throw an error
+console.log("Value:", value)
 // -------------------------
 // ✅ try / catch – basic error handling
 // -------------------------
@@ -110,5 +110,9 @@ try {
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 2.4
+
+
 // -------------------------
 export {}

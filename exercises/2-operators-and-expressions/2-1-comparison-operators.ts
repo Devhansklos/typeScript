@@ -16,6 +16,13 @@ export {} // Ignore this line
 // 6. Compare x <= y and store result in a variable
 // 7. Print each comparison result
 
+const x: number = 15
+const y: number = 10
+console.log ("wynik x>y:", x>y)
+console.log("wynik x<y:", x<y)
+console.log("wynik x>=y:", x>=y)
+console.log("wynik x<=y:", x<=y)
+
 // 💭 Questions to think about:
 // - What's the difference between == and ===?
 // - What happens when you compare a number with a string?
