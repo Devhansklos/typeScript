@@ -113,5 +113,23 @@ if (temperature > 30) {
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 3.1
+let age: number = 20
+if (age >= 18) {
+    console.log("You are an adult")
+} else {
+    console.log("You are a minor")
+}
+
+
+let numerButa: number = 15
+if (numerButa >= 48) {
+    console.log("Masz wielka girę")
+} else { 
+    console.log("Masz mala noge")
+}
+
+
 // -------------------------
 export {}
