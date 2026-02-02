@@ -78,5 +78,10 @@ console.log(ageMessage)
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 3.5
+const score = 75
+const result = score >= 70 ? "Pass" : "Fail"
+console.log(result)
 // -------------------------
 export {}
