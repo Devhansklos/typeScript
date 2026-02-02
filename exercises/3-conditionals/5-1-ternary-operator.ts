@@ -15,14 +15,7 @@ export {} // Ignore this line
 // 5. Store the result in a variable called `result`
 // 6. Print the result
 
-// 💭 Questions to think about:
-// - What happens if score is exactly 70?
-// - Can you use a ternary operator for more than two outcomes?
-
-// -------------------------
-// 📤 Expected Output:
-// -------------------------
-// "Pass"
-// -------------------------
-
-// 👇 Your code here 👇
+//Zadanie 3.5
+const score = 75
+const result = score >= 70 ? "Pass" : "Fail"
+console.log(result)
