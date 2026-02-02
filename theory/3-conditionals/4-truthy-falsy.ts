@@ -144,5 +144,48 @@ console.log("Message:", finalMessage) // "Default message"
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+// Steps:
+// 1. Create a variable `day` with a number value (1-7).
+// 2. Use a `switch` statement on `day` to set a `dayName` string:
+//    - 1: "Monday"
+//    - 2: "Tuesday"
+//    - 3: "Wednesday"
+//    - 4: "Thursday"
+//    - 5: "Friday"
+//    - 6: "Saturday"
+//    - 7: "Sunday"
+//    - default: "Invalid day"
+// 3. Create a variable `month` with a number value (1-12).
+// 4. Use a `switch` statement on `month` to set a `season` string:
+//    - 12, 1, 2: "Winter"
+//    - 3, 4, 5: "Spring"
+//    - 6, 7, 8: "Summer"
+//    - 9, 10, 11: "Autumn"
+// 5. Print both results using `console.log` (example: `day = 3`, `month = 6`).
+
+// 💭 Questions to think about:
+// - What happens if you forget the `break` statement in a switch?
+// - How can you group multiple cases together?
+
+
+//Zadanie 3.3
+let day: number = 3
+let dayName: string
+switch (day) {
+    case 1:
+        dayName = "Monday"
+        break
+    case 2:
+        dayName = "Tuesday"
+        break
+    case 3:
+        dayName = "Wednesday"
+        break
+    default:
+        dayName = "Invalid day"
+}
+console.log("Day:", dayName)
+
 // -------------------------
 export {}
