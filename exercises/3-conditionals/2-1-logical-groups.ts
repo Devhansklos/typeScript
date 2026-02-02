@@ -15,6 +15,18 @@ export {} // Ignore this line
 // 5. Store the result in a variable called `canGetDiscount`
 // 6. Use an if-else statement to print the appropriate message
 
+//Zadanie 3.2
+let isStudent: boolean = true
+let hasDiscount: boolean = false
+let age: number = 18
+let canGetDiscount: boolean = (isStudent || hasDiscount) && age >= 16
+if (canGetDiscount) {
+    console.log("You can get a discount")
+} else {
+    console.log("You cannot get a discount")
+}   
+
+
 // 💭 Questions to think about:
 // - What if age is 15 instead of 18?
 
