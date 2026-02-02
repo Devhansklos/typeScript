@@ -98,5 +98,19 @@ if (isLoggedIn && !isAdmin) {
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 3.2
+let isStudent: boolean = true
+let hasDiscount: boolean = false
+let age: number = 18
+let canGetDiscount: boolean = (isStudent || hasDiscount) && age >= 16
+if (canGetDiscount) {
+    console.log("You can get a discount")
+} else {
+    console.log("You cannot get a discount")
+}   
+
+
+
 // -------------------------
 export {}
