@@ -115,5 +115,28 @@ logMessage("This is a message") // Logs: "Log: This is a message"
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 5.1
+function calculateAverage(...numbers: number[]): number {
+    if (numbers.length === 0) return 0
+    const sum = numbers.reduce((total, num) => total + num, 0)
+    return sum / numbers.length
+}
+
+function createFullName(...nameParts: string[]): string {
+    return nameParts.join(' ')
+}
+
+function findMax(...values: number[]): number {
+    return Math.max(...values)
+}
+
+const average = calculateAverage(85, 92, 78, 96)
+console.log("Average score: " + average)
+const fullName = createFullName("Dr.", "John", "Smith", "Jr.")
+console.log("Full name: " + fullName)
+const max = findMax(23, 45, 12, 67, 34)
+console.log("Highest number: " + max)
+
 // -------------------------
 export {}
