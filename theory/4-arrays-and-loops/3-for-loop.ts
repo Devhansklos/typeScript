@@ -87,5 +87,15 @@ for (let i = 0; i < colors.length; i++) {
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+
+//Zadanie 4.3
+const kolory: string[] = ["czerwony","zielony", "niebieski"]
+let i: number = 0
+for (i=0; i<=kolory.length; i++) {
+    console.log("Kolor:" + kolory[i])
+}
+
+
 // -------------------------
 export {}
