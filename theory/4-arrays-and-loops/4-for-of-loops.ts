@@ -101,5 +101,12 @@ console.log("Final sum:", sum)
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//zadabue 4.4
+
+const animals: string[] = ["pies","kot","ptak"]
+for (const zwierze of animals) {
+    console.log("I like animal: " + zwierze)
+}
 // -------------------------
 export {} 
