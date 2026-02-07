@@ -118,5 +118,13 @@ console.log("Mapped fruits:", mappedFruits) // ["APPLE", "BANANA", "CHERRY"]
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 4.2
+const numbers: number[] = [1,2,3,4,5]
+numbers.push(6,7)
+numbers.pop()
+numbers.shift()
+console.log("koncowaTablica:" + numbers)
+
 // -------------------------
 export {}
