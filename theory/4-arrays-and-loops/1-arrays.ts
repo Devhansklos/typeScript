@@ -59,5 +59,18 @@ console.log("Second color:", colors[1]) // green
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+const owoce: string[] = ["jablko", "banan", "kiwi"]
+const pierwszyOwoc = owoce[0]
+const drugiOwoc = owoce[1]
+const trzeciOwoc = owoce[2]
+const wszystkieOwoce = owoce.length
+console.log("Pierwszy owoc: " + pierwszyOwoc)
+console.log("Drugi owoc: " + drugiOwoc)
+console.log("Trzeci owoc: " + trzeciOwoc)
+console.log("Wszystkie owoce: " + wszystkieOwoce)
+
+
+
 // -------------------------
 export {}
