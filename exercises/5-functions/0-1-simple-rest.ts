@@ -36,6 +36,13 @@ const findMax = (...values: number[]): number => {
 // 5. Call `findMax` with numbers: 23, 45, 12, 67, 34
 // 6. Print: "Highest number: [result]"
 
+//Zadanie 5.1
+const average = calculateAverage(85, 92, 78, 96)
+console.log("Average score: " + average)
+const fullName = createFullName("Dr.", "John", "Smith", "Jr.")
+console.log("Full name: " + fullName)
+const max = findMax(23, 45, 12, 67, 34)
+console.log("Highest number: " + max)
 // 💭 Questions to think about:
 // - What are rest parameters? (Hint: ...numbers means "collect all remaining arguments into an array")
 // - Why use rest parameters instead of arrays? (More flexible - can pass any number of arguments)

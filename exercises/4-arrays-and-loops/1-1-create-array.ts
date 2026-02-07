@@ -14,6 +14,21 @@ export {} // Ignore this line
 // 4. Get the total number of fruits using fruits.length
 // 5. Print each result using console.log()
 
+
+
+//Zadanie 4.1
+
+const owoce = ["jablko", "banan", "kiwi"]
+const pierwszyOwoc = owoce[0]
+const drugiOwoc = owoce[1]
+const trzeciOwoc = owoce[2]
+const wszystkieOwoce = owoce.length
+console.log("Pierwszy owoc: " + pierwszyOwoc)
+console.log("Drugi owoc: " + drugiOwoc)
+console.log("Trzeci owoc: " + trzeciOwoc)
+console.log("Wszystkie owoce: " + wszystkieOwoce)
+
+
 // 💭 Questions to think about:
 // - What happens if you try to access fruits[5]?
 // - How would you add a fourth fruit to the array?

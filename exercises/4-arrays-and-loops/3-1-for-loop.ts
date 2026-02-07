@@ -14,6 +14,12 @@ export {} // Ignore this line
 // 4. Increment i by 1 in each iteration
 // 5. Inside the loop, print: "Color [i]: [colors[i]]"
 
+const colors:string[] = ["czerwony","zielony", "niebieski"]
+let i: number = 0
+for (i=0; i<=colors.length; i++) {
+    console.log("Kolor:" + colors[i])
+}
+
 // 💭 Questions to think about:
 // - What happens if you start the loop from i = 1?
 // - What if you use <= instead of < in the condition?

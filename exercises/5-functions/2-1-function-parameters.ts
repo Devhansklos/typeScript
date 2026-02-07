@@ -15,6 +15,14 @@ export {} // Ignore this line
 // 5. Call the function with arguments 5 and 3
 // 6. Store the result and print it with the message
 
+//Zadanie 5.2   
+
+function calculateArea(width: number, height: number): number {
+    return width * height
+}
+const area = calculateArea(5, 3)
+console.log("The area is " + area + " square units")
+
 // 💭 Questions to think about:
 // - What happens if you pass negative numbers?
 // - What if you pass strings instead of numbers?

@@ -14,6 +14,13 @@ export {} // Ignore this line
 // 4. Use shift() to remove and return the first element (1)
 // 5. Print the final array using console.log()
 
+const numbers: number[] = [1,2,3,4,5]
+numbers.push(6,7)
+numbers.pop()
+numbers.shift()
+console.log("koncowaTablica:" + numbers)
+
+
 // 💭 Questions to think about:
 // - What does pop() return if the array is empty?
 // - What's the difference between pop() and shift()?

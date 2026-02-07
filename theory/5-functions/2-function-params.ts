@@ -83,6 +83,16 @@ function calculatePrice(price: number, tax: number = 0.23): void {
 calculatePrice(100) // Uses default tax 0.23
 calculatePrice(100, 0.1) // Uses custom tax 0.1
 
+
+//Zadanie 5.2   
+
+function calculateArea(width: number, height: number): number {
+    return width * height
+}
+const area = calculateArea(5, 3)
+console.log("The area is " + area + " square units")
+
+
 // -------------------------
 // 🧠 Summary:
 // -------------------------

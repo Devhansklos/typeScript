@@ -109,7 +109,7 @@ console.log("Backtick:", backtick)
 // - Backticks allow for multi-line strings and string interpolation
 
 const multiLine: string = `This is a multi-line string! 
-aYou can write text on multiple lines without using \\n.
+You can write text on multiple lines without using \\n.
 It also allows for string interpolation: ${greeting}`
 
 console.log("Multi-line string:", multiLine)

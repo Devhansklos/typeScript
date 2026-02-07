@@ -13,6 +13,12 @@ export {} // Ignore this line
 // 3. Inside the loop, print each animal with the message
 // 4. Use template literals or string concatenation for the message
 
+const animals: string[] = ["pies","kot","ptak"]
+for (const zwierze of animals) {
+    console.log("I like animals" + zwierze)
+}
+
+
 // 💭 Questions to think about:
 // - What's the difference between for-of and for-in loops?
 // - What happens if you try to modify the animal variable inside the loop?
