@@ -15,6 +15,15 @@ export {} // Ignore this line
 // 5. Create a message combining all three properties
 // 6. Print the message using console.log()
 
+const car ={
+    brand:"VW",
+    model:"Passat",
+    year: 2020
+}
+
+console.log( "Ilike my car:"+ car["brand"] + " " + car["model"] + " " + car["year"])
+
+
 // 💭 Questions to think about:
 // - When would you use bracket notation instead of dot notation?
 // - What happens if you use a variable as the bracket key?

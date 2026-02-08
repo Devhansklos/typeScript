@@ -15,6 +15,25 @@ export {} // Ignore this line
 // 5. Create a message using template literals
 // 6. Create a user object that matches the User interface
 // 7. Call the function with the user object
+interface User {
+    id: number,
+    name: string,
+    lasname: string | null,
+    email: string,
+}
+const user: User = {
+    id:1,
+    name:"Piotr",
+    lasname:"Kloc",
+    email: "piotr.klos@domdata.pl"
+}
+
+
+function displayUser(user: User) {
+    const message = `User ${user.id}: ${user.name} (${user.email})`
+    console.log(message)
+}
+
 
 // 💭 Questions to think about:
 // - What happens if you try to create a user object missing a required property?

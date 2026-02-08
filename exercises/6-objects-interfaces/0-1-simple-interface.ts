@@ -14,6 +14,13 @@ export {} // Ignore this line
 // 4. Give your pet a name (e.g., "Fluffy")
 // 5. Print "My pet's name is " + myPet.name
 
+const dog =
+{name: "Flora",
+age:11,
+breed: "Owczarek niemiecki"
+}
+console.log ("my dog is name:" +dog.name + "It has:" +dog.age + "years old and it is a:" + dog.breed)
+
 // 💭 Questions to think about:
 // - What is an interface? (Think of it like a "contract" or "template")
 // - Why use an interface? (To make sure objects have the right properties)

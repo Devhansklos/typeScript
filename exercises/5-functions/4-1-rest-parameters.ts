@@ -46,6 +46,8 @@ const buildSentence = (...words: string[]): string => {
 // 10. Call the existing `buildSentence` function with: "TypeScript", "is", "awesome"
 // 11. Print: "Sentence: [result]"
 
+
+
 // 💭 Questions to think about:
 // - What happens if you call the function with no arguments?
 // - Can you use rest parameters with other parameters?

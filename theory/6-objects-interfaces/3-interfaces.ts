@@ -120,4 +120,26 @@ printUser(myUser) // Alice is 28 years old.
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
 // -------------------------
+
+
+//zadanie 6.5
+interface UserInfo {
+    id: number
+    name: string
+    lastname: string | null
+    email: string
+}
+const newUser: UserInfo = {
+    id: 1,
+    name: "Piotr",
+    lastname: "Kloc",
+    email: "piotr.klos@domdata.pl"
+}
+
+function displayUser(user: UserInfo) {
+    const message = `User ${user.id}: ${user.name} (${user.email})`
+    console.log(message)
+}
+
+displayUser(newUser)
 export {}
