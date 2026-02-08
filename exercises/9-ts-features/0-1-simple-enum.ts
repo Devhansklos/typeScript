@@ -14,6 +14,17 @@ export {} // Ignore this line
 // 4. Assign it the value Season.Summer
 // 5. Print "Current season is " + currentSeason
 
+//
+
+// Zadanie 9.1
+enum Season {
+    Summer,
+    Winter
+}
+const currentSeason = Season.Summer
+console.log("Current season is " + Season[currentSeason])
+
+
 // 💭 Questions to think about:
 // - What is an enum? (Think of it like a list of choices)
 // - Why use an enum? (To limit what values a variable can have)

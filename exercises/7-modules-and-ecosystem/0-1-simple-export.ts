@@ -23,6 +23,16 @@ export {} // Ignore this line
 // 6. Test the isPalindrome function with: "racecar"
 // 7. Print the results of each test
 
+//zadanie 7.1
+import { capitalize, reverse, isPalindrome } from "./string-utils"
+
+const cap = capitalize("hello world")
+console.log("Capitalized: " + cap)
+
+const rev = reverse("TypeScript")
+console.log("Reversed: " + rev)
+
+const palindrome = isPalindrome("racecar")
 // 💭 Questions to think about:
 // - What does "export" mean? (Think of it like sharing something with others)
 // - Why would you want to share data between files? (To organize your code better)

@@ -14,6 +14,14 @@ export {} // Ignore this line
 // 4. Create a message using the destructured variables
 // 5. Print the message using console.log()
 
+// zadanie 9.3
+
+const point = { x: 10, y: 20 }
+const { x, y } = point
+const message = `Point coordinates: x=${x}, y=${y}`
+console.log(message)
+
+
 // 💭 Questions to think about:
 // - What happens if you try to destructure a property that doesn't exist?
 // - Can you use different variable names during destructuring?

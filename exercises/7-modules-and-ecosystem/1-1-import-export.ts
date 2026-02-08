@@ -24,6 +24,8 @@ export {} // Ignore this line
 // 6. Print the result: "Result: [calculated value]"
 // 7. Also print: "PI value: [PI value]"
 
+//zadanie 7.2
+
 // 💭 Questions to think about:
 // - What's the difference between named imports and default imports?
 // - Why do we use relative paths (./) in imports?

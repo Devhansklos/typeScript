@@ -13,6 +13,9 @@ export {} // Ignore this line
 // 3. Use destructuring to extract the name: const { name } = person
 // 4. Print "Hello, " + name
 
+//zadanie 9.2
+
+
 // 💭 Questions to think about:
 // - What is destructuring? (Think of it like "unpacking" an object)
 // - Why use destructuring? (To get values out of objects more easily)
