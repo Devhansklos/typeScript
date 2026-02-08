@@ -118,5 +118,16 @@ interface Employee2 {
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//zadanie 6.4
+type Status = "active" | "inactive" | "pending"
+interface Account {
+    id: number
+    name?: string
+    status: Status
+}
+const account: Account = { id: 123, name: "Test Account", status: "active" }
+console.log(`Account ${account.id}: ${account.name} is ${account.status}`)
+
 // -------------------------
 export {}
