@@ -140,4 +140,11 @@ printUserRole('INVALID' as Role) // TypeScript won't catch this at compile time
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
 // -------------------------
+
+enum Season {
+    Summer,
+    Winter
+}
+const currentSeason = Season.Summer
+console.log("Current season is " + Season[currentSeason])
 export {}
