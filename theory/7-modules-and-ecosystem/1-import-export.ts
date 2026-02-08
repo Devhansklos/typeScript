@@ -50,5 +50,16 @@ console.log("Welcome to:", siteName) // "Welcome to: TypeScript Portal"
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+import { capitalize, reverse, isPalindrome } from "./string-utils"
+
+const cap = capitalize("hello world")
+console.log("Capitalized: " + cap)
+
+const rev = reverse("TypeScript")
+console.log("Reversed: " + rev)
+
+const palindrome = isPalindrome("racecar")
+
 // -------------------------
 export {}
