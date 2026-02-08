@@ -14,9 +14,29 @@ export {} // Ignore this line
 //    - preferences: { theme: string, notifications: boolean }
 // 2. Access nested properties using dot notation (e.g., user.address.street)
 // 3. Print the user's name, street, and theme preference
+
+
+const user = {
+    name: "Piotr",
+    address: {
+        street: "Krótka",
+        city: "Kozieglowy",
+        country: "Poland"
+    },
+    preferences: {
+        theme: "dark",
+        notifications: true
+    }
+}
+console.log("User: " + user.name)
+console.log("Street: " + user.address.street)
+console.log("Theme: " + user.preferences.theme)
+
+
 // 
 // Tip: You can access nested properties by chaining dot notation:
 // user.address.street gets the street from the address object
+
 
 // 💭 Questions to think about:
 // - What happens if you try to access a nested property that doesn't exist?

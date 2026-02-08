@@ -38,6 +38,19 @@ const fetchUserData = new Promise((resolve, reject) => {
 // 4. Inside .catch(), print: "Error: " + the error message
 // 5. Add .finally() to print "Promise completed!" regardless of success/failure
 
+//zadanie 6.8
+const fetchUserDataTask = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        const userData = {
+            id: 1,
+            name: "Alice Johnson",
+            email: "alice@example.com",
+            isActive: true
+        };
+        resolve(userData);
+    }, 1500);
+});
+
 // 💭 Questions to think about:
 // - What is a Promise? (A way to handle async operations that will complete later)
 // - Why do we use .then(), .catch(), and .finally()?

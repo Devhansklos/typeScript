@@ -13,6 +13,26 @@ export {} // Ignore this line
 // 3. Add a method `greet()` that returns: `Hello, my name is <name> and I'm <age> years old`.
 // 4. Create an instance of `Person` and print the result of `greet()`.
 
+
+//zadanie 6.5
+
+class Person {
+    name: string
+    age: number
+    constructor(name: string, age: number) {
+        this.name = name
+        this.age = age
+    }
+    greet(): string {
+        return `Hello, my name is ${this.name} and I'm ${this.age} years old`
+    }
+}
+
+console.log(Person.greet())
+const person = new Person("Piotr", 30)
+console.log(person.greet())
+
+
 // -------------------------
 // 📤 Expected Output (example):
 // -------------------------

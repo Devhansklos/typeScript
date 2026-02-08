@@ -15,6 +15,18 @@ export {} // Ignore this line
 // 5. Create an account object that matches the Account interface
 // 6. Print the account information using template literals
 
+//zadanie 6.4
+type Status = "active" | "inactive" | "pending"
+interface Account {
+    id: number,
+    name?: string,
+    status: Status,
+}
+const account: Account = { id: 123, name: "", status: "active" }
+console.log(`Account ${account.id}: ${account.name} is ${account.status}`)
+
+
+
 // 💭 Questions to think about:
 // - What happens if you try to assign an invalid status value?
 // - What's the difference between type and interface?
