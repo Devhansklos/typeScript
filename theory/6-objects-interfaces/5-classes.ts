@@ -102,5 +102,24 @@ console.log("Difference:", calc.subtract(5, 3)) // 2
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+
+//zadanie 6.5
+const user = {
+    name: "Piotr",
+    address: {
+        street: "Krótka",
+        city: "Kozieglowy",
+        country: "Poland"
+    },
+    preferences: {
+        theme: "dark",
+        notifications: true
+    }
+}
+console.log("User: " + user.name)
+console.log("Street: " + user.address.street)
+console.log("Theme: " + user.preferences.theme)
+console.log("Notifications: " + user.preferences.notifications)
 // -------------------------
 export {}
