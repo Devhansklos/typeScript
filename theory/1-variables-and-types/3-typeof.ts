@@ -56,9 +56,12 @@ console.log("Now the type of anything:", typeof anything) // "number"
 
 let isTester = true
 console.log("Am I a tester? ", isTester)
-isTester = false
+isTester = true
+const slowoString = "test666 dsajkkbjdsabksdjbkdsa"
 console.log("Am I a tester? ", isTester)
+console.log(typeof isTester, 'typ zmiennej isTester')
+console.log(typeof slowoString, 'typ zmiennej isTester')
 
-
+// boleon -> 
 // -------------------------
 export {}

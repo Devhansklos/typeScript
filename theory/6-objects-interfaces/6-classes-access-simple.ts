@@ -109,21 +109,52 @@ user.setPassword("wrongPassword", "anotherSecurePassword") // Old password is in
 // This is just to ensure the file is treated as a module in TypeScript.
 
 
+// Klasa - > calosc Fabryka Ludzi -> ona wytwarza Persony
+// Konstruktor -> przekazuje zmienne, ktore sa "przuwiazane" do instancji klasy -> czyli 
+// w naszym przykladzie do instancji ( instancjaKlasyPersonExample1, instancjaKlasyPersonExample2) z klasy PersonExample
 
+// INSTANCJA -> to obiekt stworzony na podstawie klasy -> czyli w naszym przykladzie instancjaKlasyPersonExample1, instancjaKlasyPersonExample2
+// czyli jezeli mowie, ze masz zrobic dodatkowe ziomka Pawla i obliczyc dla niego pensje, to musisz stworzyc nowa instancje klasy 
+// czyli to new PersonExample("Pawel", 35, 9999)
 
 class PersonExample {
     name: string
     age: number
-    constructor(name: string, age: number) {
+    stawkaGodzinowa: number
+    constructor(name: string, age: number, stawkaGodzinowa) {
         this.name = name
         this.age = age
+        this.stawkaGodzinowa= stawkaGodzinowa
     }
     greet(): string {
-        return `Hello, my name is ${this.name} and I'm ${this.age} years old`
+        console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old`)
+        return `Hello, my name is ${this.name} and I'm ${this.age} years old and my payment is ${this.stawkaGodzinowa * 168} złotych`
     }
+
+    obliczWyplate(liczbaGodzin: number): number {
+        const wynik = this.stawkaGodzinowa * liczbaGodzin
+        return wynik
+    
+        
 }
 
-const personExample = new PersonExample("Piotr", 30)
-console.log(personExample.greet())
+}
+
+const instancjaKlasyPersonExample1 = new PersonExample("dab", 33, 95)
+instancjaKlasyPersonExample1.greet()
+
+const instancjaKlasyPersonExample2 = new PersonExample("klos", 40, 25)
+instancjaKlasyPersonExample2.greet()
+console.log(instancjaKlasyPersonExample2.greet())
+instancjaKlasyPersonExample2.stawkaGodzinowa = 10000
+console.log(instancjaKlasyPersonExample2.obliczWyplate(168))
+
+let wyplata = instancjaKlasyPersonExample2.obliczWyplate(168)
+
+wyplata = wyplata * 1.2
+
+//console.log(personExample.onliczWyplate(124))
+
+
 // -------------------------
 export {}

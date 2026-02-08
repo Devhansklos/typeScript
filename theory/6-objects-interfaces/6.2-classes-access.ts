@@ -51,9 +51,11 @@ class BankAccount {
     }
 }
 
+
 const account = new BankAccount(100)
 account.deposit(50)  // Deposited 50. New balance: 150
 account.withdraw(200) // Insufficient funds!
+
 
 // we can access public properties and methods
 console.log(`Account Number: ${account.accountNumber}`) // Account Number: 123456

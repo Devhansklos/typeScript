@@ -29,6 +29,40 @@ const product: Product = {
     }
 }
 
+interface Kontakt {
+    numerTelefonu: string
+    email: string
+    adres: string
+    miasto: string
+    kodPocztowy: string
+    panstwo: string
+    kraj: string
+    kodPocztowy: string
+    panstwo?: string
+    kraj?: string
+}
+
+interface Uzytkownik {
+    name: string
+    age: number
+    isAdmin: boolean
+    Product?: Product
+    Kontakt?: Kontakt
+}
+
+const user: Uzytkownik = {
+    name: "Alice",
+    age: 28,
+    isAdmin: true,
+    Product: {
+        name: "Laptop",
+        price: 3500,
+        details: {
+            weight: 1.5,
+            inStock: true
+        }
+}
+
 console.log("Product:", product)
 console.log("Details:", product.details)
 console.log("In stock:", product.details.inStock)

@@ -90,6 +90,9 @@ console.log("Score after /= 4:", score) // 6
 let flora: number = 10
 console.log("Initial flora:", flora) // 10
 flora += 5
+flora += 7
+console.log(flora) 
+
 console.log("Score2 after += 5:", flora) // 15
 flora -= 3
 console.log("Score2 after -= 3:", flora) // 12

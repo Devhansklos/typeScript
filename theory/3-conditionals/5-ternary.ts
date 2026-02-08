@@ -80,8 +80,17 @@ console.log(ageMessage)
 // This is just to ensure the file is treated as a module in TypeScript.
 
 //Zadanie 3.5
-const score = 75
-const result = score >= 70 ? "Pass" : "Fail"
+const score = 65
+const result = score >= 70 ? "To bedzie gdy rowno i powyzej 70 " : "Pagdy ponizej 70"
+
+if (score >= 70) {
+    const result = "To bedzie gdy rowno i powyzej 70 "
+} else {
+    const result = "Pagdy ponizej 70"
+}
+
+//  BOLEAN -> zwracam true lub false
+    // BOOLEAN ? "komunikat na true" : "komunikat na false"
 console.log(result)
 // -------------------------
 export {}

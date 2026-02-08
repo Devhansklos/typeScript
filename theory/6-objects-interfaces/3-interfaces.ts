@@ -11,19 +11,19 @@ console.log("\n-------------------------")
 console.log("🧱 Basic Interface")
 console.log("-------------------------\n")
 
-interface User {
+interface Uzytkownik {
     name: string
     age: number
     isAdmin: boolean
 }
 
-const user: User = {
+const user: Uzytkownik = {
     name: "Alice",
     age: 28,
     isAdmin: true
 }
 
-console.log("User:", user)
+console.log("User:", user, "typ: ", typeof user)
 
 // -------------------------
 // 🧰 Why Use Interfaces?

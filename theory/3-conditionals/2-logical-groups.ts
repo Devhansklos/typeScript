@@ -103,12 +103,17 @@ if (isLoggedIn && !isAdmin) {
 let isStudent: boolean = true
 let hasDiscount: boolean = false
 let age: number = 18
-let canGetDiscount: boolean = (isStudent || hasDiscount) && age >= 16
-if (canGetDiscount) {
+let haslo: string = 'qweqwe1234'
+let iloscLiter: number = haslo.length
+// let canGetDiscount: boolean = (isStudent || hasDiscount) && age >= 16÷
+if ((isStudent || hasDiscount) && age >= 16) {
     console.log("You can get a discount")
 } else {
     console.log("You cannot get a discount")
 }   
+
+if (isStudent || hasDiscount) && age >= 16 
+
 
 
 

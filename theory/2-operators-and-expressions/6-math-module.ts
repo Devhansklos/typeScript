@@ -142,6 +142,7 @@ console.log("Absolute value: " + absoluteValue)
 console.log("Rounded value: " + roundedValue)
 
 const liczbaLosowa = Math.floor(Math.random() * 7) // Losowa liczba całkowita od 0 do 6
+const liczbaLosowa2 = Math.random() * 7
 console.log("liczbaLosowaZzakresu0-6:", liczbaLosowa)
 
 // -------------------------

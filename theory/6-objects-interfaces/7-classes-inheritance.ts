@@ -42,12 +42,28 @@ class Dog extends Animal {
     } 
 }
 
+class Krowa extends Dog {
+    speak() {
+        console.log("Muuuuu u u u u!")
+    }
+
+    drapanieKrowy(){
+        console.log("Drapanie krowy!")
+    }
+}
+
 const genericAnimal = new Animal() // An animal is created!
 genericAnimal.speak() // This animal makes a sound.
 
 const dog = new Dog()
 dog.speak() // Woof! Woof!
-dog.fetch() // Fetching the ball!
+dog.fetch() // Fetching t
+// 
+console.log("tutaj krowa : ")
+const krowa = new Krowa()
+krowa.speak()
+krowa.drapanieKrowy()
+krowa.fetch()
 
 console.log("\n-------------------------")
 console.log("🧬 Inheritance - using super")

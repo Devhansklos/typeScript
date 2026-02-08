@@ -85,8 +85,45 @@ console.log("You are", age, "years old.") // "You are 28 years old."
 
 //zadanie 1.5
 let favoriteAnimal:string = "cat"
+
+// Metoda 1: Konkatenacja stringów (+)
+// Kiedy używać: Gdy masz prostą wiadomość z jedną lub dwiema zmiennymi
+// Zalety:
+//   - Prosta i zrozumiała składnia
+//   - Działa we wszystkich wersjach JavaScript/TypeScript
+//   - Nie wymaga specjalnych znaków (tylko zwykłe cudzysłowy)
+// Wady:
+//   - Może być nieczytelna przy wielu zmiennych
+//   - Wymaga ręcznego dodawania spacji i znaków interpunkcyjnych
+//   - Łatwo popełnić błąd przy łączeniu wielu elementów
 console.log("My favorite animal is: " + favoriteAnimal)
+
+// Metoda 2: Template literals (backticki ` `)
+// Kiedy używać: Gdy chcesz czytelny kod z wieloma zmiennymi lub wieloliniowym tekstem
+// Zalety:
+//   - Bardzo czytelna i elegancka składnia
+//   - Obsługuje wieloliniowe stringi bez dodatkowych znaków
+//   - Automatycznie konwertuje zmienne na stringi
+//   - Łatwa do edycji i modyfikacji
+//   - Można używać wyrażeń JavaScript wewnątrz ${}
+// Wady:
+//   - Wymaga użycia backticków (`) zamiast zwykłych cudzysłowów
+//   - Nie działa w bardzo starych przeglądarkach (ale w TypeScript to nie problem)
 console.log(`My favorite animal is: ${favoriteAnimal}`)
+
+// Metoda 3: Wartości oddzielone przecinkami
+// Kiedy używać: Głównie do szybkiego debugowania lub gdy chcesz zobaczyć wartości osobno
+// Zalety:
+//   - Automatycznie dodaje spacje między wartościami
+//   - Świetna do szybkiego debugowania - widzisz wartości osobno w konsoli
+//   - Nie wymaga konkatenacji ani template literals
+//   - console.log może wyświetlić obiekty w czytelnej formie
+// Wady:
+//   - Mniejsza kontrola nad formatowaniem (automatyczne spacje mogą być niepożądane)
+//   - Nie nadaje się do złożonych wiadomości
+//   - Może być myląca przy wielu zmiennych
+//   - Mniej czytelna dla długich wiadomości
+//   - W konsoli wartości mogą być oddzielone dodatkowymi spacjami
 console.log("My favorite animal is: ", favoriteAnimal)
 
 
