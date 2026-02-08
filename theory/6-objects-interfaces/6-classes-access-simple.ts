@@ -107,5 +107,23 @@ user.setPassword("wrongPassword", "anotherSecurePassword") // Old password is in
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+
+
+
+class PersonExample {
+    name: string
+    age: number
+    constructor(name: string, age: number) {
+        this.name = name
+        this.age = age
+    }
+    greet(): string {
+        return `Hello, my name is ${this.name} and I'm ${this.age} years old`
+    }
+}
+
+const personExample = new PersonExample("Piotr", 30)
+console.log(personExample.greet())
 // -------------------------
 export {}
