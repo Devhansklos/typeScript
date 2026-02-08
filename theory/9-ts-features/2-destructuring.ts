@@ -104,4 +104,11 @@ console.log("Renamed variable:", nation)
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
 // -------------------------
+
+//Zadanie 9.2
+const point = { x: 10, y: 20 }
+const { x, y } = point
+const message = `Point coordinates: x=${x}, y=${y}`
+console.log(message)
+
 export {}
