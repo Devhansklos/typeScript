@@ -80,5 +80,14 @@ console.log("Updated user:", user)
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+//Zadanie 6.1
+const dog =
+{name: "Flora",
+age:11,
+breed: "Owczarek niemiecki"
+}
+console.log ("my dog is name:" +dog.name + "It has:" +dog.age + "years old and it is a:" + dog.breed)
+
 // -------------------------
 export {}
