@@ -34,7 +34,6 @@ console.log("Is admin:", user.isAdmin) // true
 
 // -------------------------
 // 🔸 Bracket Notation
-// -------------------------
 // Useful when the property name is dynamic or not a valid identifier.
 
 console.log("\n-------------------------")
@@ -78,7 +77,7 @@ console.log("User.lastname:", myUser["lastname"]) // undefined
 // This won't throw an error, but will return `undefined`
 
 // What if we use .dot notation?
-console.log(myUser.lastname); // ❌ This will show an error if `lastname` is not defined in the object
+// console.log(myUser.lastname); // ❌ This will show an error if `lastname` is not defined in the object
 // Property 'lastname' does not exist on type '{ name: string; age: number; isAdmin: boolean; }'.ts(2339)
 
 
@@ -121,5 +120,16 @@ console.log("Unknown user name:", unknownUser["address"]) // undefined
 // -------------------------
 // Ignore the following line
 // This is just to ensure the file is treated as a module in TypeScript.
+
+
+//zadanie 6.2
+
+const car = {
+    brand: "VW",
+    model: "Passat",
+    year: 2020
+}
+
+console.log("I like my car: " + car["brand"] + " " + car["model"] + " " + car["year"])
 // -------------------------
 export {}
